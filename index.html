@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    
+body { 
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+  width: auto;
+}
+
+.QR {
+  height: 200px;
+  width: 100%;
+  border-radius: 5%;
+}
+
+.white {
+  background-color: hsl(0, 0%, 100%);
+  height: 350px;
+  width: 200px;
+  border-radius: 5%;
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 5px 5px 10px rgb(195, 192, 192);
+}
+
+P {
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+}
+.bold {
+  font-weight: 700;
+  color: rgb(53, 52, 52);
+}
+.white > p {
+  display: flex;
+}
+
+.light-gray {
+  color: rgb(112, 107, 107);
+}
+.footer
+{
+  color: rgb(110, 101, 101);
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+}
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="white"><img class="QR" src="./images/image-qr-code.png" alt="QR code">
+    <p class="bold"> Improve your front-end skills by building projects </p>
+    <p class="light-gray"> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
+  </div>
+</div>
+</body>
+<footer class="footer">Creation from Patricia O' Loughlin </footer>
+</html>
